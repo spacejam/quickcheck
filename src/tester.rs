@@ -8,9 +8,9 @@ use {Arbitrary, Gen, StdGen};
 
 /// The main QuickCheck type for setting configuration and running QuickCheck.
 pub struct QuickCheck<G> {
-    tests: usize,
-    max_tests: usize,
-    gen: G,
+    pub tests: usize,
+    pub max_tests: usize,
+    pub gen: G,
 }
 
 impl QuickCheck<StdGen<rand::ThreadRng>> {
