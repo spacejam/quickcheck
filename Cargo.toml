@@ -1,5 +1,5 @@
 [package]
-name = "quickcheck"
+name = "quickcheck_seedable"
 version = "0.3.1"  #:version
 authors = ["Andrew Gallant <jamslam@gmail.com>"]
 description = "Automatic property based testing with shrinking."
